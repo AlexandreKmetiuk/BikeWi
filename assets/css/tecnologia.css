@@ -1,0 +1,53 @@
+.tecnologia{   
+    background: linear-gradient(#f2a50c,#ffbf00);       
+}
+
+.tecnologia-principal{
+    display: flex;      
+    gap: 100px;    
+}
+
+.tecnologia-descricao{
+    margin-top: 60px;
+}
+
+.tecnologia-descricao h3{    
+    font-size: 1.3rem;
+    margin-bottom: 15px;    
+}
+
+.tecnologia-descricao h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.tecnologia-descricao p{
+    font-size: 1.125rem;
+    margin-bottom: 15px;
+}
+
+.tecnologia-modelo h3{
+    font-size: 1.5rem; 
+    border-top: 2px solid #f2a50c;
+    padding: 10px 0px;
+    text-align: center;              
+}
+
+.tecnologia-modelo ul{
+    display: flex;
+    gap: 30px;    
+}
+
+.tecnologia-modelo li h4{
+    font-weight: 700;
+    margin: 0 auto;
+    border: 2px solid #f2a50c;
+    width: 220px;
+    text-align: center;
+    padding: 10px 0px;    
+}
+
+.tecnologia-modelo li p{
+    margin-top: 15px;
+    font-size: .8rem;
+}

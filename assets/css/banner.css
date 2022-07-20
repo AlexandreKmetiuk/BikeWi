@@ -9,16 +9,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr; 
     align-items: center;
+    
     gap: 100px;        
 }
 
 .banner-imagem{
     position: relative;
+    
 }
 
 .banner-imagem img{
     position: absolute;
-    top: -160px;
+    top: -230px;
     border-radius: 4px;
 }
 
