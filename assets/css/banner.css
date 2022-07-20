@@ -1,0 +1,45 @@
+.banner{
+    background: #000203;
+    color: #F4F4F4;
+    
+    padding: 60px;      
+}
+
+.banner-principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    align-items: center;
+    gap: 100px;        
+}
+
+.banner-imagem{
+    position: relative;
+}
+
+.banner-imagem img{
+    position: absolute;
+    top: -160px;
+    border-radius: 4px;
+}
+
+.banner-contexto h1{
+    font-size: 2.8rem;
+    margin-bottom: 40px;
+}
+
+.banner-contexto p{
+    font-size: 1.125rem;
+    margin-bottom: 40px;
+}
+
+.banner-contexto .botao{
+    color: #000203;
+    display: inline-block;
+    padding: 16px 32px;
+    background: linear-gradient(#f2a50c,#ffbf00);
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 1.125rem;
+}
+

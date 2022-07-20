@@ -1,15 +1,15 @@
 .header{
-    background-color: #003B60;
+    background-color: #000203;
     color: #F4F4F4;   
 }
 
 .header-flex{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;    
-    margin: 0 auto;
     gap: 20px;
-    height: 60px;
+    
 }
 
 .header-logo{
@@ -19,7 +19,7 @@
 }
 
 .header-lista{
-    display: flex;    
+    display: flex; 
     gap: 40px;
 }
 
@@ -44,4 +44,11 @@
 
 .header-lista a:hover:after{
     width: 100%;
+}
+
+@media (max-width: 600px){
+    .header-flex{
+        flex-direction: column;
+        gap: 10px;        
+    }
 }
