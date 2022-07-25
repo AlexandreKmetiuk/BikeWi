@@ -1,14 +1,23 @@
 .tecnologia{   
-    background: linear-gradient(#f2a50c,#ffbf00);       
+    background: linear-gradient(#f2a50c,#ffbf00);          
 }
 
 .tecnologia-principal{
-    display: flex;      
-    gap: 100px;    
+    display: grid; 
+    grid-template-columns: 1fr 1fr;      
+    margin: 0 auto;    
 }
 
-.tecnologia-descricao{
-    margin-top: 60px;
+.tecnologia img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tecnologia-descricao{       
+    padding: 60px 60px 100px 0px;
+    margin-left: 5rem; 
+        
 }
 
 .tecnologia-descricao h3{    

@@ -3,6 +3,10 @@
     color: #F4F4F4;   
 }
 
+.header-container{
+    margin: 0 5rem;
+}
+
 .header-flex{
     display: flex;
     justify-content: space-between;
