@@ -16,7 +16,7 @@
 
 .tecnologia-descricao{       
     padding: 60px 60px 100px 0px;
-    margin-left: 5rem; 
+    margin-left: 5rem;
         
 }
 
@@ -44,6 +44,7 @@
 
 .tecnologia-modelo ul{
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;    
 }
 
@@ -59,4 +60,24 @@
 .tecnologia-modelo li p{
     margin-top: 15px;
     font-size: .8rem;
+}
+
+@media (max-width: 1200px){
+    .tecnologia-principal{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 800px){
+    .tecnologia-principal{
+        grid-template-columns: 1fr;
+    }
+    .tecnologia-principal img{
+        display: none;
+    }
+
+    .tecnologia-descricao h2{
+        font-size: 1.8rem;
+    }
+
 }

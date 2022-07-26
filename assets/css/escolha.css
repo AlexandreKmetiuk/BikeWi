@@ -1,5 +1,5 @@
 .escolha-bicicleta{
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -52,4 +52,10 @@
 .escolha-lista span{
     font-size: 1rem;   
     color: #595959;
+}
+
+@media (max-width: 800px){
+    .escolha-bicicleta{
+        padding-left: 10px;
+    }
 }

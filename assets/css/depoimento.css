@@ -40,3 +40,16 @@
     font-style: italic;
 }
 
+@media (max-width: 800px){
+    .depoimento{
+        grid-template-columns: 1fr;
+    }
+
+    .depoimento img{
+        max-height: 200px;
+    }
+
+    .depoimento-descricao p{
+        font-size: 1.4rem;
+    }
+}
