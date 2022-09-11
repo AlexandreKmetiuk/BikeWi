@@ -1,11 +1,12 @@
 .escolha-bicicleta{
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 30px;
     margin-bottom: 30px;
+    padding-left: 15px;
 }
 
 .escolha-lista{
-    display: flex;
+    display: flex;    
     gap: 30px;
     max-width: 1400px;
     padding: 0 20px 20px 20px;    

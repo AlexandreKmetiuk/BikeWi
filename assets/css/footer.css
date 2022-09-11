@@ -14,8 +14,9 @@ footer{
 
 .footer-logo{
     color: #F4F4F4;
-    font-family: 'Yellowtail', cursive;
-    font-size: 2rem;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3rem;
+    padding-left: 15px;
 }
 
 .footer-contato{
@@ -49,7 +50,7 @@ footer{
 }
 
 .footer-container p{
-    padding: 20px 0;
+    padding: 20px 15px 15px  15px;
 }
 
 @media (max-width: 800px){

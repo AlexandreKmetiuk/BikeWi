@@ -8,12 +8,16 @@
 
 body{
     background-color: #F4F4F4;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lora', serif;
 }
 
 .container{
-    max-width: 1400px;
+    max-width: 1200px;
     margin: 0 auto;      
+}
+
+.titulos{
+    font-family: 'Montserrat', sans-serif;
 }
 
 img{
