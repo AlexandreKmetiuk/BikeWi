@@ -43,12 +43,18 @@
     font-size: 1.125rem;
 }
 
+@media (max-width: 370px){
+    .banner-imagem {
+        margin-bottom: -250px;
+    }
+}
+
 @media (max-width: 650px){
     .banner-contexto{
         margin-top: 20px;
     }
     .banner-imagem{
-        margin-bottom: -100px;
+        margin-bottom: -80px;
     }
 }
 
