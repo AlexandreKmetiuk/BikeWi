@@ -86,6 +86,13 @@
     background-color: #2e2e2e;
 }
 
+@media (max-width: 400px){
+    .garantia-lista .botao-diamante, 
+    .garantia-lista .botao-platinum{
+        font-size: 0.7rem;
+    }
+}
+
 @media (max-width: 800px){
     .garantia-personalizada{
         grid-template-columns: 1fr;
